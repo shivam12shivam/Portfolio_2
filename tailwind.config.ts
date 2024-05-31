@@ -7,6 +7,15 @@ const config: Config ={
   ],
   theme: {
     extend: {
+      fontFamily:{
+        inter: ['var(--font-inter)']
+      },
+      colors:{
+        background: 'rgb(var(--background))',
+        foreground: 'rgb(var(--foreground))',
+        muted: 'rgb(var(--muted))',
+        accent: 'rgb(var(--accent))',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
