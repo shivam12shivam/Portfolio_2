@@ -9,8 +9,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-auto items-center justify-center relative">
       <Image src={bg} alt='background-image' className='w-full h-full object-cover object-center opacity-60' />
 
-      <div>
+      <div className="w-full h-screen">
         
+        //24:02
       </div>
     </main>
 
