@@ -4,6 +4,7 @@ import bg from "../../public/background/homepage.png"
 import Image from "next/image";
 import RenderModel from "@/components/RenderModel"
 import Front from "@/components/models/frontpage"
+import Navigation from "@/components/navigation/index"
 export default function Home() {
 
   return (
@@ -12,8 +13,7 @@ export default function Home() {
       <Image src={bg} alt='background-image' fill className='w-full h-full object-cover object-center opacity-80 -z-50 ' />
 
       <div className="w-full h-screen">
-
-        
+        <Navigation/>
         <RenderModel>
           <Front/>
         </RenderModel>

@@ -7,7 +7,7 @@ import { Environment } from '@react-three/drei'
 
 function RenderModel({children,classname}) {
   return (
-    <Canvas className={clsx("w-screen z-auto h-screen relative",classname)}>
+    <Canvas className={clsx("w-screen -z-50 h-screen relative",classname)}>
         <Suspense> {/*fallback={null} */}
             {children}
         </Suspense>
