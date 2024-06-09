@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import bg from "../../public/background/homepage.png"
+import bg from "../../public/background/hm1.png"
 import Image from "next/image";
 import RenderModel from "@/components/RenderModel"
 import Front from "@/components/models/frontpage"
