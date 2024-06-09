@@ -17,7 +17,7 @@ const ProjectLayout = ({ name, description, date, demoLink }) => {
     >
       <div className="text-white flex items-center justify-center space-x-2">
         <h2 className="text-foreground">{name}</h2>
-        <p className="text-gray-600 text-xs hidden sm:inline-block">{description}</p>
+        <p className="text-gray-300 text-xs hidden sm:inline-block">{description}</p>
       </div>
       <div className="self-end flex-1 mx-2 mb-1 bg-transparent border-b border-dashed border-muted" />
       <p className="text-muted sm:text-foreground">

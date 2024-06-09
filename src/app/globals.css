@@ -9,7 +9,7 @@
 
   /* bg-background/20 border border-accent/30   shadow-glass-inset  */
   .custom-bg {
-    @apply bg-slate-400 border-black hover:shadow-glass-sm border-solid backdrop-blur-[6px] hover:bg-stone-500 hover:shadow-white shadow-glass-inset ;
+    @apply bg-gray-700 text-white border-black hover:shadow-glass-inset border-solid backdrop-blur-[6px] hover:bg-stone-500 hover:shadow-gray-900 shadow-white shadow-inner ;
   }
 }
 

@@ -1,8 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import ProjectLayout from "./ProjectLayout";
-// import RenderModel from "../RenderModel"
-// import Rain from "../models/rain"
 
 const container = {
   hidden: { opacity: 0 },
@@ -18,10 +16,6 @@ const container = {
 const ProjectList = ({ projects }) => {
   return (
     <>
-    {/* <RenderModel>
-      <Rain/>
-    </RenderModel> */}
-  
     <motion.div
 
       variants={container}

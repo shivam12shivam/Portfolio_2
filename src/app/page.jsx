@@ -3,8 +3,17 @@ import React from "react";
 import bg from "../../public/background/hm1.png"
 import Image from "next/image";
 import RenderModel from "@/components/RenderModel"
-import Front from "@/components/models/frontpage"
+// import Front from "@/components/models/frontpage"
 import Navigation from "@/components/navigation/index"
+import dynamic from "next/dynamic";
+
+const Front = dynamic(() => import("@/components/models/frontpage"),{
+  ssr:false,
+});
+
+
+// importing blender jsx component dynamically to load it faster
+
 export default function Home() {
 
   return (
