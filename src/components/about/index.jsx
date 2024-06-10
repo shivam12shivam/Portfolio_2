@@ -1,7 +1,6 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
-import Image from "next/image";
 
 const AboutDetails = () => {
   return (
@@ -30,7 +29,7 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <Image
+          <img
             className="w-full h-auto"
             src={`https://github-readme-stats.vercel.app/api/top-langs?username=shivam12shivam&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="SHIVAM"
@@ -39,7 +38,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <Image
+          <img
             className="w-full h-auto"
             src={`https://github-readme-stats.vercel.app/api?username=shivam12shivam&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="SHIVAM"
@@ -48,7 +47,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
-          <Image
+          <img
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=c,cpp,py,html,css,bootstrap,tailwind,appwrite,firebase,git,github,js,jquery,threejs,mongodb,mysql,react,redux,nextjs,nodejs,npm,netlify,vercel,vite,vscode`}
             alt="SHIVAM"
@@ -57,7 +56,7 @@ const AboutDetails = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-          <Image
+          <img
             className="w-full h-auto"
             src={`https://github-readme-streak-stats.herokuapp.com?user=shivam12shivam&theme=merko`}
             alt="SHIVAM"
@@ -71,7 +70,7 @@ const AboutDetails = () => {
             target="_blank"
             className="w-full"
           >
-            <Image
+            <img
               className="w-full h-auto"
               src={`https://github-readme-stats.vercel.app/api/pin/?username=shivam12shivam&repo=gym-freakss&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
               alt="SHIVAM"

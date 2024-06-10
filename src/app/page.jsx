@@ -11,7 +11,6 @@ const Front = dynamic(() => import("@/components/models/frontpage"),{
   ssr:false,
 });
 
-
 // importing blender jsx component dynamically to load it faster
 
 export default function Home() {
