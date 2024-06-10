@@ -23,15 +23,7 @@ export default function Contact() {
             CONTACT THE CAPTAIN
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            Welcome to my corner of the web, where creativity meets
-            the cosmos! As a web developer with a passion for exploring
-            the final frontier, I bring the boundless curiosity and
-            precision of space exploration to every project I undertake.
-            Whether you're looking to launch a new website or enhance
-            an existing one, I am here to help you navigate the digital
-            universe. Let's embark on this journey together—reach out
-            via the contact form below,
-            and let's make your web presence as stellar as the stars.
+            Welcome to my corner of the web, where creativity meets the cosmos! As a web developer with a passion for exploring the final frontier, I bring the boundless curiosity and precision of space exploration to every project I undertake.Whether you're looking to launch a new website or enhance an existing one, I am here to help you navigate the digital universe. Let's embark on this journey together—reach out via the contact form below,and let's make your web presence as stellar as the stars.
           </p>
         </div>
         <Form />
