@@ -1,4 +1,3 @@
-'use client'
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
@@ -6,7 +5,7 @@ import Link from "next/link";
 
 const AboutDetails = () => {
   return (
-    <section className="py-20 w-full">
+    <section className=" w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout
           className={
