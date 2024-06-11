@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AboutDetails = () => {
   return (
-    <section className=" w-full">
+    <section className="w-full">
       <div className="grid grid-cols-12 gap-4 xs:gap-6  md:gap-8 w-full">
         <ItemLayout
           className={
@@ -37,7 +37,7 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
+        <ItemLayout className={"h-36 sm:h-auto col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
             src={`https://github-readme-stats.vercel.app/api?username=shivam12shivam&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
