@@ -33,10 +33,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "Tas-ker",
-    description: "Plan and organize daily tasks",
+    name: "todo project lis",
+    description: "TO Plan and organize daily tasks with multiple features",
     date: "2023-07-01",
-    demoLink: "https://todolist-z5l9.onrender.com/",
+    demoLink: "https://proj-todo-one.vercel.app/",
   },
   {
     id: 4,
@@ -79,7 +79,7 @@ export const BtnList = [
   },
   {
     label: "Resume",
-    link: "https://drive.google.com/file/d/19wsxJtlkxZdM_QqAA3KiYqyI_RTRUNL8/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1NQnVIXUDvaohC4XDpYycodIP4aXBYD4s/view?usp=drive_link",
     icon: "resume",
     newTab: true,
   },
