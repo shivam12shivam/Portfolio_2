@@ -33,16 +33,16 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "todo project lis",
+    name: "To-do list",
     description: "TO Plan and organize daily tasks with multiple features",
-    date: "2023-07-01",
+    date: "2025-04-11",
     demoLink: "https://proj-todo-one.vercel.app/",
   },
   {
     id: 4,
-    name: "Weather-app",
-    description: "To know real-time weather ",
-    date: "2023-05-23",
+    name: "Chat Application",
+    description: "To Chat with your friends in real time",
+    date: "2025-05-05",
     demoLink: "https://todolist-z5l9.onrender.com/",
   },
   {
