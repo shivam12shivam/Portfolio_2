@@ -26,17 +26,17 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Gym-freaks",
-    description: "For assisting you in gym",
+    name: "Fitness Platform",
+    description: "For assisting you in ",
     date: "2024-02-10",
     demoLink: "https://gymfreakss.vercel.app/",
   },
   {
     id: 3,
-    name: "To-do list",
-    description: "TO Plan and organize daily tasks with multiple features",
-    date: "2025-04-11",
-    demoLink: "https://proj-todo-one.vercel.app/",
+    name: "Social Media Application",
+    description: "a digital platform that enables users to create, share, and interact with content and connect with others online",
+    date: "2025-05-11",
+    demoLink: "https://socialmedia-blush.vercel.app/signup",
   },
   {
     id: 4,
@@ -47,10 +47,10 @@ export const projectsData = [
   },
   {
     id: 5,
-    name: "Portfolio",
-    description: "My old portfolio made with html & css",
-    date: "2023-07-09",
-    demoLink: "https://shivam12shivam.github.io/portfolio/",
+    name: "Finance Tracker",
+    description: "An app that helps users monitor, manage, and analyze their income, expenses, and savings",
+    date: "2025-06-09",
+    demoLink: "https://finance-tracker-gold-delta.vercel.app",
   },
 ];
 
